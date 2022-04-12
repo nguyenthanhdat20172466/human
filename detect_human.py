@@ -7,7 +7,7 @@ import demo as nn
 
 backSub = cv2.createBackgroundSubtractorMOG2()
 
-capture = cv2.VideoCapture('11.mp4')
+capture = cv2.VideoCapture('video_nén.mp4')
 
 while True:
     _, frame = capture.read()
